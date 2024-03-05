@@ -18,13 +18,13 @@ export default function Hero() {
             Book Now
           </button>
         </div>
-        <div className="relative">
+        <div className="relative flex justify-center items-center">
           <Image
             src="/hero_banner.svg"
             width={600}
             height={600}
             alt="Picture of the author"
-            className="absolute -top-24"
+            className="absolute"
           />
         </div>
       </div>
